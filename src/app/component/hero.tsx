@@ -37,7 +37,7 @@ const Hero = () => {
                      <Image
                         className="object-cover object-center rounded mx-auto"
                         alt="hero"
-                        src={require('../public/5.jpg')} 
+                        src={require("../public/5.jpg")} 
                     />
                 </div>
             </div>
@@ -46,4 +46,4 @@ const Hero = () => {
     )
 }
 
-export default Hero
+export default Hero;
