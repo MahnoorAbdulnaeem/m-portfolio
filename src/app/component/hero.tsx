@@ -22,7 +22,7 @@ const Hero = () => {
                         />
                     </h1>
                     <div className="w-[100px] h-[2px] bg-purple-700"></div>
-                    <p className="mb-8 leading-relaxed text-white">
+                    <p className="mb-8 leading-relaxed text-white font-semibold">
                         I'm Mahnoor a passionate frontend web developer with expertise in creating responsive and interactive websites  I specialize in HTML CSS JavaScript Typescript React Next.js and Tailwind CSS to build clean efficient and user-friendly interfaces My goal is to deliver high-quality web applications that offer seamless experiences and visually appealing designs
                     </p>
                     <div className="flex justify-center">
