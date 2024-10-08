@@ -1,7 +1,7 @@
 import Link from "next/link"
 import React from "react"
 import Image from "next/image"
-import { FaCloudDownloadAlt } from "react-icons/fa";
+
 
 import { Menu } from "lucide-react";
 
@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="bg-white z-50 sticky top-0">
             <header className="text-gray-600 body-font">
 
-                <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center hidden md:flex">
+                <div className="container mx-auto  flex-wrap p-2 flex-col md:flex-row items-center hidden md:flex">
                     <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
                         <Image src={require("../public/1.jpg")} alt="mahnoor" width={100} height={100} className="w-[100px]" />
                     </a>
